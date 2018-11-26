@@ -1,17 +1,13 @@
 import React from 'react'
 import { withStyles } from '@material-ui/core/styles'
-import Home from './Home'
 
 const App = (props) => {
   const { classes } = props
 
   return (
     <div id='App-wrapper' className={classes.wrapper}>
-      <div id='App-contentWraper' className={classes.contentWrapper}>
-        <div id='App-content' className={classes.content}>
-          <Home />
-        </div>
-      </div>
+      <h1>Starter Project</h1>
+      <h2>With Material UI</h2>
     </div>
   )
 }
@@ -20,14 +16,7 @@ const styles = theme => ({
   wrapper: {
     display: 'flex',
     flexDirection: 'column',
-  },
-  contentWrapper: {
-    flex: '1 0 auto',
-    margin: '2% 10%',
-
-  },
-  content: {
-    height: '100%',
+    alignItems: 'center',
   },
 })
 
