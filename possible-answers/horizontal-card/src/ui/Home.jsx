@@ -10,8 +10,7 @@ const Title = ({ children }) => {
   return (<Typography variant='h4' align='center'>{children}</Typography>)
 }
 
-const Home = (props) => {
-  const { classes } = props
+const Home = () => {
   return (
     <div>
       <LeftRightSection image={iTeaching} imageSide='left'>
