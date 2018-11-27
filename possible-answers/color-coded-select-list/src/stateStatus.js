@@ -36,7 +36,7 @@ const stateStatus = [
   {
     id: 'or',
     name: 'Oregon',
-    status: 'green'
+    status: 'red'
 
   },
 ]
