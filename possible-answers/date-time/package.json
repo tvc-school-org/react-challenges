@@ -1,10 +1,12 @@
 {
-  "name": "horizontal-card",
+  "name": "react-only",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^3.5.1",
+    "date-fns": "^1.29.0",
+    "prop-types": "^15.6.2",
     "react": "^16.6.3",
+    "react-datepicker": "^2.0.0",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
   },
