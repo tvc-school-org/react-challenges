@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    min-width: 320px;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  html {
+    font-size: 14pt;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  html {
+    font-size: 12pt;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  html {
+    font-size: 11pt;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 10pt;
+  }
+}
+
+body {
+  line-height: 1;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.65;
+  background-color: #ffffff;
+  color: #000000;
+  -webkit-text-size-adjust: none;
+  -ms-overflow-style: scrollbar;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    min-width: 320px;
+  }
+}
+
+
+
+@media screen and (max-width: 480px) {
+  body {
+    min-width: 320px;
+  }
+}
